@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'maven'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+jar.manifest {
+    attributes(['Vaadin-Stylesheets': 'VAADIN/addons/sample-theme-addon/sample-theme-addon.scss'])
+}
