@@ -14,7 +14,7 @@ Theme add-ons may provide SCSS files for a theme compilation. They must comply w
 // mandatory mixin definition
 @mixin <addon-name> {
   .v-button.demo-button {
-    background-color: red;
+    background: red;
   }
 }
 ```
